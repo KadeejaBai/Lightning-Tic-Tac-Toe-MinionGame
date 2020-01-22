@@ -20,7 +20,7 @@ module.exports = {
     // eslint-disable-next-line no-undef
     contentBase: path.join(__dirname, `dist/${pkg.version}`),
     compress: true,
-    port: 8066,
+    port: 8055,
     hot: true,
   },
   node: {

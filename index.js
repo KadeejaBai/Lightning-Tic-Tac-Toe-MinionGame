@@ -18,3 +18,8 @@ window.onload = function () {
   const launcher = new DevLauncher();
   launcher.launch(App, options);
 };
+/* import { Launch } from './node_modules/wpe-lightning-sdk'
+import App from '.src/App.js'
+
+export default function () {
+    return Launch(App, ...arguments)*/
