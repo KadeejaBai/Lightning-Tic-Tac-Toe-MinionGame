@@ -1,7 +1,7 @@
 {
-    "name": "commercialactivation",
-    "version": "2.1.2",
-    "description": "lightning based Activation app",
+    "name": "tictactoe",
+    "version": "1.0",
+    "description": "lightning based tic tac toe",
     "devDependencies": {
         "@babel/core": "^7.6.2",
         "@babel/node": "^7.6.2",
