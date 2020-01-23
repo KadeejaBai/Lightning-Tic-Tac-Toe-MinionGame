@@ -17,7 +17,6 @@
         "command-line-args": "^5.1.1",
         "copy-webpack-plugin": "^5.0.4",
         "cross-env": "^5.2.1",
-        "cypress": "^3.7.0",
         "deploy-aws-s3-cloudfront": "^1.0.0",
         "eslint": "^4.18.1",
         "eslint-config-airbnb-base": "12.1.0",
