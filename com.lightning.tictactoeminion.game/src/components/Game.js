@@ -5,6 +5,8 @@ export default class Game extends Lightning.Component {
   static _template() {
     return {
       Game: {
+        x: 960,
+        y: 340,
         PlayerPosition: {
           rect: true,
           w: 250,
@@ -28,12 +30,12 @@ export default class Game extends Lightning.Component {
           y: 100
         },
         ScoreBoard: {
-          x: 100,
-          y: 170,
+          x: -400,
+          y: 500,
           Player: {
-            text: { text: 'Minion : 0', fontSize: 29 }
+            text: { text: 'Minion : 0', fontSize: 70 }
           },
-          Ai: { y: 40, text: { text: 'Evil Minion : 0', fontSize: 29 } }
+          Ai: { y: 90, text: { text: 'Evil Minion : 0', fontSize: 70 } }
         }
       },
       Notification: {
