@@ -5,13 +5,13 @@ import Game from './components/Game'
 export default class App extends Lightning.Component {
   static _template() {
     return {
-      Header: { src: IMAGES.MINION, x: 50, y: 10, scale: 0.5 },
+      Header: { src: IMAGES.MINION, x: 450, y: 10, scale: 0.5 },
       TicTac: { type: Game, x: 100, y: 100, scale: 0.5 }
     }
   }
 
   /**
-   * @memberof Activation
+   * @memberof App
    * Init Method.
    */
   _init() {
