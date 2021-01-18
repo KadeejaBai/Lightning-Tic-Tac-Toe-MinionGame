@@ -2,7 +2,8 @@
   "name": "com.lightning.tictactoeminion.game",
   "description": "MinionTicTacToe",
   "dependencies": {
-    "wpe-lightning-sdk": "rdkcentral/Lightning-SDK"
+    "wpe-lightning-sdk": "rdkcentral/Lightning-SDK",
+    "ecstatic": ">=4.1.3"
   },
   "lint-staged": {
     "*.js": [
