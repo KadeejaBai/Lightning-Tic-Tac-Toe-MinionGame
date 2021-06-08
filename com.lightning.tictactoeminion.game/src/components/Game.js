@@ -1,5 +1,5 @@
 import Utils from '../service/GameUtils'
-import { Lightning } from 'wpe-lightning-sdk'
+import { Lightning } from '@lightningjs/sdk'
 import { IMAGES } from '../constants/ImageConstants'
 export default class Game extends Lightning.Component {
   static _template() {

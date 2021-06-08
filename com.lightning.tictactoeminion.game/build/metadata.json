@@ -1,6 +1,0 @@
-{
-  "name": "MinionTicTacToe",
-  "identifier": "com.lightning.tictactoeminion.game",
-  "version": "1.0.0",
-  "icon": "./static/icon.png"
-}
